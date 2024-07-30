@@ -35,9 +35,9 @@ const VideoList: React.FC<VideoListProps> = ({
             <li
               key={index}
               onClick={() => onVideoSelect(listId)}
-              className={`flex items-center p-2 rounded-lg shadow-sm cursor-pointer transition ${
+              className={`border flex items-center p-2 rounded-lg shadow-sm cursor-pointer transition ${
                 videoId && videoId === listId
-                  ? "bg-gray-200 hover:bg-white"
+                  ? "bg-blue-200 hover:bg-white"
                   : "white hover:bg-gray-200"
               }`}
             >
