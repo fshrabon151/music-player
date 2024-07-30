@@ -1,0 +1,45 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+p {
+  max-width: 600px;
+  text-align: center;
+}
+
+.selected {
+  border: 2px solid #ff0000;
+}
